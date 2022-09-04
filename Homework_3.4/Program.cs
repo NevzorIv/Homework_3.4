@@ -61,7 +61,7 @@ namespace Homework_3._4
         static int HowMuchSets(int howMuchSet, int bookAll, int oneSet)
         {
             howMuchSet = bookAll / oneSet;
-            Console.Write($"Кол-во наборов {howMuchSet}\n");
+            Console.Write($"Кол-во наборов: {howMuchSet}\n");
             return howMuchSet;
         }
         static int PagesAllSet(int pagesAllSet, int howMuchSet, int oneSet)
@@ -80,7 +80,7 @@ namespace Homework_3._4
             int kolFirst = kol;
             int kolSecond = kol;
             int kolThird = kol;
-            Console.Write($"Кол-во оставшихся страниц {kol}\n");
+            Console.Write($"Кол-во оставшихся страниц: {kol}\n");
             if (kol > bookFirst || kol > bookSecond || kol > bookThird)
             {
                 if (kol > bookFirst)
